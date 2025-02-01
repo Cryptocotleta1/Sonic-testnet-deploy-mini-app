@@ -1,13 +1,17 @@
-# Sample Hardhat Project
+# Sonic Testnet Deploy Mini App
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.
+Мини-приложение для деплоя смарт-контрактов в Sonic Testnet с использованием Hardhat.
 
-Try running some of the following tasks:
+## 🚀 Установка
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat ignition deploy ./ignition/modules/Lock.js
-```
+```bash
+git clone https://github.com/Cryptocotleta1/Sonic-testnet-deploy-mini-app.git
+cd Sonic-testnet-deploy-mini-app
+npm install
+
+npx hardhat help                  # Список доступных команд
+npx hardhat test                  # Запуск тестов
+REPORT_GAS=true npx hardhat test   # Запуск тестов с отчетом о газе
+npx hardhat node                  # Локальный узел для тестирования
+npx hardhat ignition deploy ./ignition/modules/Lock.js  # Деплой контракта
+
